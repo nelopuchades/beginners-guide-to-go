@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
+	// Variables
 	var welcome string = "hello world"
 	// welcome := "hello world"
 	println(welcome)
@@ -13,6 +14,7 @@ func main() {
 	var myAge int = 25
 	// myAge := 25
 
+	// Arithmetic operators
 	myAge += 10 // 35
 	myAge -= 10 // 25
 	myAge *= 2  // 50
@@ -21,6 +23,7 @@ func main() {
 
 	println(myAge) // 50
 
+	// Const variable
 	const salary int = 28000
 	println(salary) // 28000
 	// error -> salary := 25000
@@ -31,6 +34,7 @@ func main() {
 	var customerHeight int = 135
 	customerAge := 18
 
+	// if conditional
 	if customerHeight >= 150 || customerAge >= 18 {
 		println("Can access ride! :D")
 	} else if customerHeight >= 120 {
@@ -41,6 +45,7 @@ func main() {
 
 	// Can access ride! :D
 
+	// switch conditional
 	switch {
 	case customerHeight >= 150 || customerAge >= 18:
 		println("Can access ride! :D")
@@ -61,6 +66,7 @@ func main() {
 		println("something else")
 	}
 
+	// arrays
 	planets := [6]string{"Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturns"}
 	fmt.Println(planets)
 
